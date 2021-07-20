@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A09D41026A479E10035F81A /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09D40F26A479E10035F81A /* PaletteViewController.m */; };
+		9A1412F626A39D5D0024B324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1412F526A39D5D0024B324 /* AppDelegate.m */; };
+		9A1412FC26A39D5D0024B324 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1412FB26A39D5D0024B324 /* ArtistViewController.m */; };
+		9A1412FF26A39D5D0024B324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1412FD26A39D5D0024B324 /* Main.storyboard */; };
+		9A14130126A39D5E0024B324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A14130026A39D5E0024B324 /* Assets.xcassets */; };
+		9A14130426A39D5E0024B324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A14130226A39D5E0024B324 /* LaunchScreen.storyboard */; };
+		9A14130726A39D5E0024B324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14130626A39D5E0024B324 /* main.m */; };
+		9A14131026A39E360024B324 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A14130E26A39E360024B324 /* Montserrat-Medium.ttf */; };
+		9A14131126A39E360024B324 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A14130F26A39E360024B324 /* Montserrat-Regular.ttf */; };
+		9A3BB72026A5CD3900A18EA0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BB71F26A5CD3900A18EA0 /* TimerViewController.swift */; };
+		9A3BB72226A5E00400A18EA0 /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BB72126A5E00400A18EA0 /* DrawingsViewController.swift */; };
+		9A3BB72526A5F3B600A18EA0 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BB72426A5F3B600A18EA0 /* CurveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A09D40E26A479E10035F81A /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		9A09D40F26A479E10035F81A /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		9A1412F126A39D5D0024B324 /* RSSchool_T8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1412F426A39D5D0024B324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A1412F526A39D5D0024B324 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A1412FA26A39D5D0024B324 /* ArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		9A1412FB26A39D5D0024B324 /* ArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
+		9A1412FE26A39D5D0024B324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A14130026A39D5E0024B324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A14130326A39D5E0024B324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A14130526A39D5E0024B324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A14130626A39D5E0024B324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A14130E26A39E360024B324 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		9A14130F26A39E360024B324 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		9A3BB71E26A5CD3900A18EA0 /* RSSchool_T8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T8-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A3BB71F26A5CD3900A18EA0 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		9A3BB72126A5E00400A18EA0 /* DrawingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
+		9A3BB72326A5F3B600A18EA0 /* CurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		9A3BB72426A5F3B600A18EA0 /* CurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1412EE26A39D5D0024B324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1412E826A39D5D0024B324 = {
+			isa = PBXGroup;
+			children = (
+				9A1412F326A39D5D0024B324 /* RSSchool_T8 */,
+				9A1412F226A39D5D0024B324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1412F226A39D5D0024B324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1412F126A39D5D0024B324 /* RSSchool_T8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A1412F326A39D5D0024B324 /* RSSchool_T8 */ = {
+			isa = PBXGroup;
+			children = (
+				9A1412F426A39D5D0024B324 /* AppDelegate.h */,
+				9A1412F526A39D5D0024B324 /* AppDelegate.m */,
+				9A1412FA26A39D5D0024B324 /* ArtistViewController.h */,
+				9A1412FB26A39D5D0024B324 /* ArtistViewController.m */,
+				9A09D40E26A479E10035F81A /* PaletteViewController.h */,
+				9A09D40F26A479E10035F81A /* PaletteViewController.m */,
+				9A3BB71F26A5CD3900A18EA0 /* TimerViewController.swift */,
+				9A3BB72126A5E00400A18EA0 /* DrawingsViewController.swift */,
+				9A1412FD26A39D5D0024B324 /* Main.storyboard */,
+				9A14130026A39D5E0024B324 /* Assets.xcassets */,
+				9A14130226A39D5E0024B324 /* LaunchScreen.storyboard */,
+				9A14130526A39D5E0024B324 /* Info.plist */,
+				9A14130626A39D5E0024B324 /* main.m */,
+				9A14130D26A39E2C0024B324 /* Fonts */,
+				9A3BB71E26A5CD3900A18EA0 /* RSSchool_T8-Bridging-Header.h */,
+				9A3BB72326A5F3B600A18EA0 /* CurveView.h */,
+				9A3BB72426A5F3B600A18EA0 /* CurveView.m */,
+			);
+			path = RSSchool_T8;
+			sourceTree = "<group>";
+		};
+		9A14130D26A39E2C0024B324 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A14130E26A39E360024B324 /* Montserrat-Medium.ttf */,
+				9A14130F26A39E360024B324 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A1412F026A39D5D0024B324 /* RSSchool_T8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A14130A26A39D5E0024B324 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */;
+			buildPhases = (
+				9A1412ED26A39D5D0024B324 /* Sources */,
+				9A1412EE26A39D5D0024B324 /* Frameworks */,
+				9A1412EF26A39D5D0024B324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool_T8;
+			productName = RSSchool_T8;
+			productReference = 9A1412F126A39D5D0024B324 /* RSSchool_T8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A1412E926A39D5D0024B324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9A1412F026A39D5D0024B324 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 9A1412EC26A39D5D0024B324 /* Build configuration list for PBXProject "RSSchool_T8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A1412E826A39D5D0024B324;
+			productRefGroup = 9A1412F226A39D5D0024B324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A1412F026A39D5D0024B324 /* RSSchool_T8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A1412EF26A39D5D0024B324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A14130426A39D5E0024B324 /* LaunchScreen.storyboard in Resources */,
+				9A14130126A39D5E0024B324 /* Assets.xcassets in Resources */,
+				9A14131026A39E360024B324 /* Montserrat-Medium.ttf in Resources */,
+				9A14131126A39E360024B324 /* Montserrat-Regular.ttf in Resources */,
+				9A1412FF26A39D5D0024B324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1412ED26A39D5D0024B324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3BB72026A5CD3900A18EA0 /* TimerViewController.swift in Sources */,
+				9A09D41026A479E10035F81A /* PaletteViewController.m in Sources */,
+				9A3BB72526A5F3B600A18EA0 /* CurveView.m in Sources */,
+				9A1412FC26A39D5D0024B324 /* ArtistViewController.m in Sources */,
+				9A3BB72226A5E00400A18EA0 /* DrawingsViewController.swift in Sources */,
+				9A1412F626A39D5D0024B324 /* AppDelegate.m in Sources */,
+				9A14130726A39D5E0024B324 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A1412FD26A39D5D0024B324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1412FE26A39D5D0024B324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A14130226A39D5E0024B324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A14130326A39D5E0024B324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A14130826A39D5E0024B324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A14130926A39D5E0024B324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A14130B26A39D5E0024B324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ442ZP995;
+				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/RSSchool_T8-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A14130C26A39D5E0024B324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ442ZP995;
+				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/RSSchool_T8-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A1412EC26A39D5D0024B324 /* Build configuration list for PBXProject "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A14130826A39D5E0024B324 /* Debug */,
+				9A14130926A39D5E0024B324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A14130A26A39D5E0024B324 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A14130B26A39D5E0024B324 /* Debug */,
+				9A14130C26A39D5E0024B324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A1412E926A39D5D0024B324 /* Project object */;
+}
